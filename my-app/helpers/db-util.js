@@ -2,7 +2,7 @@ import { MongoClient } from 'mongodb';
 
 export async function connectDatabase() {
   const client = await MongoClient.connect(
-    'mongodb+srv://maximilian:8ZO3ycZqJ23kWBQx@cluster0.ntrwp.mongodb.net/events?retryWrites=true&w=majority'
+    'mongodb+srv://Herman_23:ncfzCXsP025fpfmB@cluster0.tsyxrvn.mongodb.net/events?retryWrites=true&w=majority'
   );
 
   return client;
@@ -27,3 +27,5 @@ export async function getAllDocuments(client, collection, sort) {
 
   return documents;
 }
+
+//ncfzCXsP025fpfmB Herman_23
